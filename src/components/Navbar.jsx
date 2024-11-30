@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="bg-wine text-cream px-6 py-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">School Name</h1>
+        <h1 className="text-xl font-bold">Prime College</h1>
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-gray-300">
             Home

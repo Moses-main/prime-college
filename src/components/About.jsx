@@ -1,5 +1,6 @@
 // src/components/About.jsx
 import React from "react";
+// import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       <h1 className="text-3xl font-bold text-center mb-6">About Us</h1>
       <div className="max-w-3xl mx-auto">
         <p className="text-lg mb-6">
-          Our school is known for its excellence in producing high-quality
+          Prime College is known for its excellence in producing high-quality
           students who excel in academics, sports, and leadership roles. We are
           committed to nurturing talents and empowering students to achieve
           their full potential.

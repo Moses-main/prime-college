@@ -14,14 +14,12 @@ const Home = () => {
       {/* Hero Section */}
       <header className="bg-cream text-wine py-20 text-center">
         <div className="container mx-auto px-4">
-          {/* Hero Heading */}
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Welcome to Our School
+            Welcome to Prime College
           </h1>
           <p className="text-base md:text-lg mb-6">
             Excellence in education, nurturing future leaders.
           </p>
-          {/* Buttons */}
           <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 mt-6">
             <Link
               to="/register"
@@ -43,6 +41,7 @@ const Home = () => {
       <section className="py-12 bg-gray-100 text-center">
         <h2 className="text-4xl font-bold mb-6">Our Facilities</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+          {/* Facility Cards */}
           <div className="shadow-lg p-4 rounded-lg bg-white hover:shadow-xl transition">
             <img
               src="/images/graduating-students.jpg"
@@ -79,21 +78,151 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Call to Action Section */}
-      <section className="py-12 bg-wine text-cream text-center">
-        <h2 className="text-4xl font-bold mb-6">Join Our Community</h2>
-        <p className="text-lg mb-8">
-          Discover a nurturing environment that empowers students to achieve
-          their dreams.
-        </p>
-        <div>
+      {/* Awards Section */}
+      <section className="py-12 bg-white text-center">
+        <h2 className="text-4xl font-bold mb-6">Awards and Recognition</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+            <img
+              src="/images/academic-award.jpg"
+              alt="Academic Excellence"
+              className="rounded-lg mb-4"
+            />
+            <h3 className="font-semibold text-lg">Academic Excellence</h3>
+            <p className="text-sm text-gray-600">
+              National recognition for outstanding academic performance.
+            </p>
+          </div>
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+            <img
+              src="/images/sports-award.jpg"
+              alt="Sports Achievements"
+              className="rounded-lg mb-4"
+            />
+            <h3 className="font-semibold text-lg">Sports Achievements</h3>
+            <p className="text-sm text-gray-600">
+              Champions in inter-school sports tournaments.
+            </p>
+          </div>
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+            <img
+              src="/images/national-awards.jpg"
+              alt="National Achievements"
+              className="rounded-lg mb-4"
+            />
+            <h3 className="font-semibold text-lg">International Recognition</h3>
+            <p className="text-sm text-gray-600">
+              Champions in inter-school sports tournaments.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 mt-6">
           <Link
             to="/register"
-            className="bg-cream text-wine px-6 py-3 rounded-full shadow-md hover:bg-gray-200 transition"
+            className="bg-wine text-cream px-6 py-3 rounded-md hover:bg-red-800 shadow-md transition text-sm md:text-base"
           >
-            Enroll Today
+            Register Now
+          </Link>
+          <Link
+            to="/contact"
+            className="bg-cream text-wine border-2 border-wine px-6 py-3 rounded-md hover:bg-wine hover:text-cream shadow-md transition text-sm md:text-base"
+          >
+            Contact Us
           </Link>
         </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-12 bg-gray-100 text-center">
+        <h2 className="text-4xl font-bold mb-6">What Our Students Say</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-6">
+          <blockquote className="bg-white shadow-lg rounded-lg p-6">
+            <p className="italic text-gray-700">
+              "Prime College has transformed my life. The teachers are
+              supportive, and the facilities are top-notch."
+            </p>
+            <footer className="mt-4 text-sm text-wine">- Jane Doe</footer>
+          </blockquote>
+          <blockquote className="bg-white shadow-lg rounded-lg p-6">
+            <p className="italic text-gray-700">
+              "The environment at Prime College encourages growth and
+              innovation. I highly recommend it!"
+            </p>
+            <footer className="mt-4 text-sm text-wine">- John Smith</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      {/* Extracurricular Activities Section */}
+      <section className="py-12 bg-white text-center">
+        <h2 className="text-4xl font-bold mb-6">Extracurricular Activities</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+            <img
+              src="/images/sports-day.jpg"
+              alt="Sports Day"
+              className="rounded-lg mb-4"
+            />
+            <h3 className="font-semibold text-lg">Sports Day</h3>
+            <p className="text-sm text-gray-600">
+              Fostering teamwork and physical fitness.
+            </p>
+          </div>
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+            <img
+              src="/images/art-competition.jpg"
+              alt="Art Competition"
+              className="rounded-lg mb-4"
+            />
+            <h3 className="font-semibold text-lg">Art Competition</h3>
+            <p className="text-sm text-gray-600">
+              Inspiring creativity among students.
+            </p>
+          </div>
+
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+            <img
+              src="/images/quiz.jpg"
+              alt="Art Competition"
+              className="rounded-lg mb-4"
+            />
+            <h3 className="font-semibold text-lg">Quiz</h3>
+            <p className="text-sm text-gray-600">
+              Challenging creativity brains among students.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Academic Programs Section */}
+      <section className="py-12 bg-gray-100 text-center">
+        <h2 className="text-4xl font-bold mb-6">Academic Programs</h2>
+        <p className="text-lg text-gray-700 px-6">
+          Offering a wide range of programs to prepare students for future
+          success.
+        </p>
+        <Link
+          to="/programs"
+          className="bg-wine text-cream px-6 py-3 rounded-full shadow-md hover:bg-red-800 transition mt-4 inline-block"
+        >
+          Explore Programs
+        </Link>
+      </section>
+
+      {/* Parent Engagement Section */}
+      <section className="py-12 bg-white text-center">
+        <h2 className="text-4xl font-bold mb-6">Parent Engagement</h2>
+        <p className="text-lg text-gray-700 px-6">
+          Collaborating with parents to ensure holistic development of students.
+        </p>
+      </section>
+
+      {/* Upcoming Events Section */}
+      <section className="py-12 bg-gray-100 text-center">
+        <h2 className="text-4xl font-bold mb-6">Upcoming Events</h2>
+        <p className="text-lg text-gray-700 px-6">
+          Stay updated with our events, workshops, and celebrations.
+        </p>
       </section>
     </div>
   );
