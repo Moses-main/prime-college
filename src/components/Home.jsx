@@ -82,7 +82,7 @@ const Home = () => {
       <section className="py-12 bg-white text-center">
         <h2 className="text-4xl font-bold mb-6">Awards and Recognition</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
-          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/academic-award.jpg"
               alt="Academic Excellence"
@@ -93,7 +93,7 @@ const Home = () => {
               National recognition for outstanding academic performance.
             </p>
           </div>
-          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/sports-award.jpg"
               alt="Sports Achievements"
@@ -104,7 +104,7 @@ const Home = () => {
               Champions in inter-school sports tournaments.
             </p>
           </div>
-          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/national-awards.jpg"
               alt="National Achievements"
@@ -157,7 +157,7 @@ const Home = () => {
       <section className="py-12 bg-white text-center">
         <h2 className="text-4xl font-bold mb-6">Extracurricular Activities</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
-          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/sports-day.jpg"
               alt="Sports Day"
@@ -168,7 +168,7 @@ const Home = () => {
               Fostering teamwork and physical fitness.
             </p>
           </div>
-          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/art-competition.jpg"
               alt="Art Competition"
@@ -180,7 +180,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/quiz.jpg"
               alt="Art Competition"
