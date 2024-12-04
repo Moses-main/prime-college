@@ -42,7 +42,7 @@ const Home = () => {
         <h2 className="text-4xl font-bold mb-6">Our Facilities</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
           {/* Facility Cards */}
-          <div className="shadow-lg p-4 rounded-lg bg-white hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg bg-white hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/graduating-students.jpg"
               alt="Graduating Students"
@@ -53,7 +53,7 @@ const Home = () => {
               Celebrate our students' journey to success.
             </p>
           </div>
-          <div className="shadow-lg p-4 rounded-lg bg-white hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg bg-white hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/staff.jpg"
               alt="Staff"
@@ -64,7 +64,7 @@ const Home = () => {
               Meet the passionate educators shaping futures.
             </p>
           </div>
-          <div className="shadow-lg p-4 rounded-lg bg-white hover:shadow-xl transition">
+          <div className="shadow-lg p-4 rounded-lg bg-white hover:shadow-xl transition flex flex-col items-center">
             <img
               src="/images/laboratory.jpg"
               alt="Laboratory"
